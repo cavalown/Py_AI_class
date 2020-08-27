@@ -1,0 +1,13 @@
+import  numpy as np
+a = np.random.randint(1,10,6)
+print(a)
+print('')
+print(a.argmin())
+print('')
+print(a.argmax())
+print('')
+print(np.cos([0, np.pi,  2*np.pi]))
+print('')
+# 無理數 e 也稱為歐拉數，約為 2.718281 ， e 的 x 次方 print(np.exp([1,2,3])) print(‘’)
+print(np.sqrt([1,4,9,16]))
+#開根號 print('')
